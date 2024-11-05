@@ -1,0 +1,75 @@
+/* CustomBarChart.css */
+
+.chart-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.chart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.district-name {
+    width: 100px;
+    text-align: right;
+    color: #333333;
+    margin-right: 10px;
+}
+
+.bar-container {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.bar-filled {
+    background-color: #005eb8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 5px;
+    font-size: 0.9rem;
+}
+
+.bar-unfilled {
+    background-color: #e0e0e0;
+    height: 100%;
+}
+
+.bar-label {
+    font-weight: bold;
+}
+
+.x-axis {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.x-axis-label {
+    color: #999999;
+    font-size: 0.9rem;
+}
